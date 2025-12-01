@@ -43,7 +43,7 @@ def info():
         'hostname': os.environ.get('HOSTNAME', 'unknown'),
         'environment': os.environ.get('ENVIRONMENT', 'not-set'),
         'app_name': os.environ.get('APP_NAME', 'not-set'),
-        'port': os.environ.get('PORT', 'not-set')
+        'port': os.environ.get('PORT', 'not-set'),
         'description': os.environ.get('DESCR', 'un ejemplo de modificacion')
     }
 
