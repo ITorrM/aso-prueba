@@ -30,8 +30,8 @@ steps:
       - 'deploy'
       - 'app-info-service'
       - '--image'
-     '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/app-info-service:${BUILD_ID}'
-
+      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/app-info-service:${BUILD_ID}'
+  
 # Configuración de imágenes a construir
 images:
   - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/app-info-service:${BUILD_ID}'
