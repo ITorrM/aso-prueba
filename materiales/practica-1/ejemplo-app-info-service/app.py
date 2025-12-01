@@ -44,6 +44,7 @@ def info():
         'environment': os.environ.get('ENVIRONMENT', 'not-set'),
         'app_name': os.environ.get('APP_NAME', 'not-set'),
         'port': os.environ.get('PORT', 'not-set')
+        'description': os.environ.get('DESCR', 'un ejemplo de modificacion')
     }
 
 @app.route('/config')
